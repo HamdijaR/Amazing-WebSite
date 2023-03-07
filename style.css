@@ -1,0 +1,143 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+.menu {
+
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+ul {
+    display: inline-flex;
+
+}
+
+.ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 55px;
+    transition: all 0.3 ease;
+}
+
+.ul li a:hover {
+
+    background: white;
+    color: black;
+}
+
+.img {
+    background: url('img3.jpg')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img::before {
+
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0 ,0, 0.4);
+}
+
+.center {
+
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+    transform: translate(-50% , -50%);
+}
+
+.title {
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.subtitle {
+
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 20px;
+
+}
+
+.learn-more-buton,
+.subscribe-button {
+
+    height: 55px;
+    width: 170px;
+    border-radius: 7px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3 ease;
+
+} 
+
+.learn-more-buton {
+
+    color: white;
+    background: none;
+}
+
+.learn-more-buton:hover {
+    background: white;
+    color: black;
+}
+
+.subscribe-button {
+
+    background: white;
+    color: black;
+}
+
